@@ -3,7 +3,7 @@ const findBMI = (height, age) => {
 };
 
 const formatOutput = (bmi) => {
-  return `<p class="mb-0"> Your BMI is <strong> ${bmi} </strong> </p>`;
+  return `<p class="mb-0 fs-5"> Your BMI is <strong> ${bmi} </strong> </p>`;
 };
 
 export default { findBMI, formatOutput };

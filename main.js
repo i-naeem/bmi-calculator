@@ -16,4 +16,5 @@ formElement.onsubmit = (event) => {
   const output = BMICalculator.formatOutput(bmi);
 
   outputElement.innerHTML = output;
+  outputElement.hidden = false;
 };
