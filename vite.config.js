@@ -1,5 +1,5 @@
 const config = {
-  base: "/bim-calculator/",
+  base: "/bmi-calculator/",
 };
 
 export default config;
