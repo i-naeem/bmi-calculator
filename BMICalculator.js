@@ -1,5 +1,6 @@
-const findBMI = (height, age) => {
-  return 18.2;
+const findBMI = (height, weight) => {
+  console.log(height, weight);
+  return (weight / Math.pow(height, 2)).toFixed(1);
 };
 
 const formatOutput = (bmi) => {
