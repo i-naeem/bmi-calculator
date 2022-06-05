@@ -16,9 +16,9 @@
     <title>Calculate your Body Mass Index by BMI Calculator</title>
   </head>
   <body>
-    <main>
+    <main class="container">
       <!-- Name -->
-      <section>
+      <section class="row text-center p-5 mb-5">
         <h1>Body Mass Index BMI Calculator</h1>
         <p>
           The Body Mass Index (BMI) Calculator can be used to calculate BMI
@@ -28,7 +28,37 @@
       </section>
 
       <!-- Calculator -->
-      <section></section>
+
+      <section class="row">
+        <section class="col-6">
+          <h1>BMI Calculator</h1>
+          <form action="#">
+            <div class="mb-3">
+              <label for="height" class="form-label">Height</label>
+              <input
+                id="height"
+                type="number"
+                class="form-control"
+                placeholder="Height"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="age" class="form-label">Age</label>
+              <input
+                type="number"
+                class="form-control"
+                id="age"
+                placeholder="Age"
+              />
+            </div>
+          </form>
+        </section>
+
+        <section class="col-6">
+          <h1>BMI FAQs</h1>
+        </section>
+      </section>
 
       <!-- Article -->
       <section></section>
