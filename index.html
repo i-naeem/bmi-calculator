@@ -36,22 +36,43 @@
           <form action="#" id="form">
             <div class="mb-3">
               <label for="height" class="form-label">Height</label>
-              <input
-                id="height"
-                type="number"
-                class="form-control"
-                placeholder="Height"
-              />
+              <div class="input-group">
+                <input
+                  id="height"
+                  type="number"
+                  class="form-control w-75"
+                  placeholder="Enter your height"
+                />
+                <select
+                  class="form-select"
+                  id="heigh-unit"
+                  aria-label="Select unit for height"
+                >
+                  <option value="cm">cm</option>
+                  <option value="inches">ft</option>
+                  <option value="meters">meter</option>
+                </select>
+              </div>
             </div>
 
             <div class="mb-3">
-              <label for="age" class="form-label">Age</label>
-              <input
-                type="number"
-                class="form-control"
-                id="age"
-                placeholder="Age"
-              />
+              <label for="Weight" class="form-label">Weight</label>
+              <div class="input-group">
+                <input
+                  id="Weight"
+                  type="number"
+                  class="form-control w-75"
+                  placeholder="Enter your Weight"
+                />
+                <select
+                  class="form-select"
+                  id="heigh-unit"
+                  aria-label="Select unit for weight"
+                >
+                  <option value="kg">kg</option>
+                  <option value="pound">pound</option>
+                </select>
+              </div>
             </div>
 
             <div class="mb-3 d-flex justify-content-end">
@@ -111,6 +132,8 @@
           </ul>
         </section>
       </section>
+
+      <hr />
 
       <!-- Article -->
       <section class="row mb-3">
